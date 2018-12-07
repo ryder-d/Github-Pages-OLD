@@ -1,0 +1,67 @@
+/* Design Inspired by Sebastian Kinne && James Alexandre */
+
+:root {
+    --text-color: #b7b2b5;
+    --background-color: #242b40;
+}
+
+html, body {
+    margin: 0; 
+    padding: 0;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+h1.name {
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: white;
+}
+
+h2.info {
+    font-size: 12px;
+    line-height: 13px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.icons > a {
+    margin: 5px;
+    text-decoration: none;
+}
+
+.icons > a > img {
+    margin-top: 20px;
+    width: 30px;
+    height: 30px;
+}
+
+@media only screen and (max-width: 480px) {
+    h1.name {
+        font-size: 16px;
+    }
+    
+    h2.info {
+        font-size: 10px;
+    }
+
+    .icons > a > img {
+        width: 24px;
+        height: 24px;;
+    }
+}

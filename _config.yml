@@ -1,0 +1,16 @@
+title: Devon Ryder
+email: devon@devonryder.com
+description: >- # this means to ignore newlines until "baseurl:"
+  IT Technician, Programmer, Linux Enthusiast
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+linkedin_username: devon-ryder-9ba85483
+twitter_username: Ryder807
+github_username: DevonRyder
+
+# Build settings
+markdown: kramdown
+# theme: 
+plugins:
+  - jekyll-feed
